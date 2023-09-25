@@ -1,0 +1,36 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+
