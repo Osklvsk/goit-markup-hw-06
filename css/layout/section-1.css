@@ -59,7 +59,7 @@
     }
   }
 @media screen and (min-width: 1158px) {
-    .content-icons {
+    .content-box {
       display: flex;
       align-items: center;
       justify-content: center;
