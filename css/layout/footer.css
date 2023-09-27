@@ -1,23 +1,24 @@
 .color-foot{
+    width: 100%;
     background-color: #2e2f42;
-    padding: 100px 0;
+    padding: 97px 0 96px 0;
 }
 .studio-foot{
     color: #f4f4fd;
 }
 .foot-container{
     display: flex;
-    align-items: baseline;
-    width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    align-items: center;
+   flex-direction: column;
+   text-align: center;
+   justify-content: center;
+   gap: 72px;
 }
 .foot-content{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 .logo-foot{
     font-family: "Raleway", sans-serif;
@@ -28,7 +29,7 @@
     text-transform: uppercase;
     color: #4d5ae5;
     display: inline-block;
-    margin-bottom: 17.5px;
+    margin-bottom: 18px;
     align-items: center;
     
 }
@@ -89,6 +90,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 40px;
     font-family: "Roboto", sans-serif;
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     font-weight: 500;
@@ -99,6 +101,8 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: #4d5ae5;
     border: none;
     border-radius: 4px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .foot-form-btn:hover,
 .foot-form-btn:focus{

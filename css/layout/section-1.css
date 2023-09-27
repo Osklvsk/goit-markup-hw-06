@@ -1,7 +1,5 @@
  
-.content-box, .content-icons{
-  display: none;
-}
+
 
 .content{
     padding: 93px 0 99px 0;
@@ -9,7 +7,7 @@
     margin-left: auto;
 }
 .content-box{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     height: 112px;
@@ -53,9 +51,10 @@
   .content{
 padding: 96px 0;
   }  
-  .list-ben {
-      display: flex;
-      flex-direction: row;
+  .content-box {
+    display: none;
+     justify-content:center;
+      flex-direction:row;
       flex-wrap: wrap;
       column-gap: 24px;
       row-gap: 72px;
@@ -66,6 +65,7 @@ padding: 96px 0;
   
     .li-back-cards {
       width: 356px;
+      width: calc((100% - 72px) / 4);
     }
   }
 @media screen and (min-width: 1158px) {
