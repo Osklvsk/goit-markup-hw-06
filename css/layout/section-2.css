@@ -1,7 +1,6 @@
 .team{
     background: #f4f4fd;
-    margin-top: 96px;
-    margin-bottom: 96px;
+    padding: 96px;
 }
 
 .hetext{
@@ -13,7 +12,6 @@
     color: #2e2f42;
     margin-bottom: 72px;
     font-weight: 700;
-    padding-top: 96px;
 
 }
 .li-back{
@@ -26,7 +24,6 @@
     display: flex;
     gap: 72px;
     flex-direction: column;
-    padding-bottom: 96px;
 }
 
 

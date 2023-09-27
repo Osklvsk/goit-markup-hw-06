@@ -17,11 +17,11 @@
 }
 .list-ben{
     display: flex;
-    gap: 72px;
-    margin-top: 96px;
-    flex-direction: column;
+    gap: 72px 24px;
+    flex-direction: row;
     align-content: center;
     justify-items: center;
+    flex-wrap: wrap;
 
 }
 .li-back-cards{
@@ -65,7 +65,7 @@ padding: 96px 0;
   
     .li-back-cards {
       width: 356px;
-      width: calc((100% - 72px) / 4);
+      width: calc((100% - 24px) / 2);
     }
   }
 @media screen and (min-width: 1158px) {
