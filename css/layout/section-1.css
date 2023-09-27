@@ -1,10 +1,12 @@
  
-.content-icons{
-    display: none;
+.content-box, .content-icons{
+  display: none;
 }
 
 .content{
-    padding: 120px 0;
+    padding: 93px 0 99px 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 .content-box{
     display: flex;
@@ -20,7 +22,12 @@
     gap: 72px;
     margin-top: 96px;
     flex-direction: column;
+    align-content: center;
+    justify-items: center;
 
+}
+.li-back-cards{
+  width: 288px;
 }
 .headline{
     font-weight: 700;
@@ -43,7 +50,10 @@
 }
 
 @media screen and (min-width: 768px) {
-    .list-ben {
+  .content{
+padding: 96px 0;
+  }  
+  .list-ben {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
@@ -55,44 +65,59 @@
     }
   
     .li-back-cards {
-      width: calc((100% - 24px) / 2);
+      width: 356px;
     }
   }
 @media screen and (min-width: 1158px) {
-    .content-box {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 112px;
-      background-color: #f4f4fd;
-      border-radius: 4px;
-      margin-bottom: 8px;
-      border: 1px solid #8e8f99;
+  .li-back-cards {
+    background-color: #FFFFFF;
+    column-gap: 24px;
+    width: calc((100% - 72px) / 4);
+}
+.content-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #8E8F99;
+    background: #F4F4FD;
+}
+.content-icons{
+    position: absolute;
+    top: 24px;
+    left: 100px;
+}
+.list-ben {
+    display: flex;
+    gap: 24px;
+}
+.content {
+    padding: 120px 0;
+}
+
+
+.headline {
+    color: #2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+
+.text-p {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+} 
     }
-    .headline {
-      font-size: 20px;
-      font-weight: 700;
-      line-height: 1.2;
-      letter-spacing: 0.02em;
-      margin-bottom: 8px;
-      text-align: left;
-      text-transform: capitalize;
-      margin-bottom: 8px;
-    }
-    .text-p {
-      font-weight: 400;
-    }
-  
-    .list-ben {
-      display: flex;
-      gap: 24px;
-      margin-top: 120px;
-    }
-  
-    .li-back-cards {
-      width: calc((100% - 72px) / 4);
-    }
-  }
 
 /* .li-back-cards{
     width: calc((100% - 72px) / 4);
