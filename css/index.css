@@ -7,4 +7,5 @@
 @import './layout/section-1.css';
 @import './layout/section-2.css';
 @import './layout/section-3.css';
-@import '/css/layout/footer.css';
+@import './css/layout/footer.css';
+@import './css/index.css';
